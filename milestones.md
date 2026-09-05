@@ -21,9 +21,15 @@
 
 ## 🔹 Milestone 4: Tickets & Comments CRUD
 
-- [ ] Implement `GET /api/tickets` (list of all tickets).
-- [ ] Implement `POST /api/tickets` (create ticket).
-- [ ] Implement `GET /api/tickets/:id` (fetch ticket + comments).
-- [ ] Implement `PATCH /api/tickets/:id` (update status).
-- [ ] Implement `POST /api/tickets/:id/comments` (add comment).
-- [ ] Review: Check error handling.
+- [x] Implement `GET /api/tickets` (list of all tickets).
+- [x] Implement `POST /api/tickets` (create ticket).
+- [x] Implement `GET /api/tickets/:id` (fetch ticket + comments).
+- [x] Implement `PATCH /api/tickets/:id` (update status).
+- [x] Implement `POST /api/tickets/:id/comments` (add comment).
+- [x] Review: Check error handling.
+
+## 🔹 Milestone 5: Testing
+
+- [x] Write integration test for all endpoints
+- [x] Test happy paths (register -> login -> create ticket -> comment).
+- [x] Test failure paths (invalid login, missing fields, bad token, all 404 scenarios).
