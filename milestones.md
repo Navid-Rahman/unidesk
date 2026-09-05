@@ -14,7 +14,16 @@
 
 ## 🔹 Milestone 3: Authentication works
 
-- [ ] Create jwt authentication
-- [ ] Implement `POST /api/register`
-- [ ] Implement `POST /api/login` - check for correct password jwt token returned and login
-- [ ] Review: Check status codes (400 vs 401 vs 201) and security edge cases.
+- [x] Create jwt authentication
+- [x] Implement `POST /api/register`
+- [x] Implement `POST /api/login` - check for correct password jwt token returned and login
+- [x] Review: Check status codes (400 vs 401 vs 201) and security edge cases.
+
+## 🔹 Milestone 4: Tickets & Comments CRUD
+
+- [ ] Implement `GET /api/tickets` (list of all tickets).
+- [ ] Implement `POST /api/tickets` (create ticket).
+- [ ] Implement `GET /api/tickets/:id` (fetch ticket + comments).
+- [ ] Implement `PATCH /api/tickets/:id` (update status).
+- [ ] Implement `POST /api/tickets/:id/comments` (add comment).
+- [ ] Review: Check error handling.
