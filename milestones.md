@@ -33,3 +33,11 @@
 - [x] Write integration test for all endpoints
 - [x] Test happy paths (register -> login -> create ticket -> comment).
 - [x] Test failure paths (invalid login, missing fields, bad token, all 404 scenarios).
+
+## 🔹 Milestone 6: Frontend
+
+- [x] Set up React app with 3 minimalistic views:
+  1. Login/Register view.
+  2. Ticket List view + new ticket form.
+  3. Ticket Detail view + comment box & status toggle.
+- [x] Connect React frontend to Express API with `fetch`/`axios`.

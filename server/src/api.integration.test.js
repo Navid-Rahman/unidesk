@@ -1,17 +1,10 @@
 jest.mock("./db", () => ({ query: jest.fn() }));
 
-const express = require("express");
 const request = require("supertest");
 const db = require("./db");
-const authRouter = require("./routes/auth");
-const ticketsRouter = require("./routes/tickets");
+const app = require("./server");
 
 describe("UniDesk API integration", () => {
-  const app = express();
-  app.use(express.json());
-  app.use(authRouter);
-  app.use(ticketsRouter);
-
   let users;
   let tickets;
   let comments;
